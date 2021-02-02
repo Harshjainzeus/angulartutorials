@@ -16,5 +16,8 @@
 <input type="text" name="twowayroute" [(ngModel)]="tempname">
 <h2> Child Componenet </h2>
 <app-child [fname]='data' (parentfunc)="parentpassingfunc($event)" [varname]="tempname" (callparentfunc)="passchild($event)" ></app-child>
+<br><br><br>
+<h2>Directive used below</h2>
+<p appCustomdirective>this a text by custom directive </p>
 
 

@@ -7,6 +7,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import {FormsModule} from '@angular/forms';
+import { CustomdirectiveDirective } from './customdirective.directive';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {FormsModule} from '@angular/forms';
     UserloginComponent,
     ParentComponent,
     ChildComponent,
+    CustomdirectiveDirective,
   ],
   imports: [
     BrowserModule,
