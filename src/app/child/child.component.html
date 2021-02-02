@@ -1,0 +1,10 @@
+<p>child works!</p>
+<h1>{{fname}}</h1>
+<h1 *ngIf="username">{{fname.username}}</h1>
+<button (click)="senddatatoparent()">click on child to get data in parent</button>
+
+<ul>
+    <li *ngFor="let item of dict"> <a routerLink={{item.routename}}> {{item.title}} </a> </li>
+</ul>
+<label for="children"> Child of Two way route</label>
+<input type="text" name="children" [(ngModel)]="varname" (ngModelChange)="callparent()">
