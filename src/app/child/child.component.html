@@ -4,7 +4,7 @@
 <button (click)="senddatatoparent()">click on child to get data in parent</button>
 
 
-<h3> the list below is made by ng for for routings </h3>
+<h3> the list below is made by ngFor for routings </h3>
 <ul>
     <li *ngFor="let item of dict"> <a routerLink={{item.routename}}> {{item.title}} </a> </li>
 </ul>
